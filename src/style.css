@@ -1,0 +1,25 @@
+#root{
+    /* background-color: blueviolet; */
+    /* max-width: 1280px; */
+    /* padding: 2rem; */
+    margin: 0 auto;
+    /* text-align: center */
+}
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    margin: 20px ;
+    background-color: tomato;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 20px;
+
+}
