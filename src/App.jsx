@@ -12,7 +12,7 @@ const Effect = () => {
   useEffect(() =>{
     window.addEventListener('resize', handleResize)
   }, [])
- 
+
   return (
 
       <div>{windowWidth}</div>

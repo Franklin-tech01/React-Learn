@@ -7,6 +7,7 @@ import {
   Route,
 } from "react-router-dom";
 import App from "./App2.jsx";
+import Call from "./App3.jsx"
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -14,8 +15,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Router>
       {/* <App /> */}
       <Routes>
-        <Route path="/app2" element={<App />} />
-        <Route path="/app3" element={<Effect />} />
+        <Route path="/app0" element={<App />} />
+        <Route path="/app1" element={<Effect />} />
+        <Route path="/app2" element={<Call/>}/>
       </Routes>
     </Router>
   </React.StrictMode>
